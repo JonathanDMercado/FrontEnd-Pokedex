@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+    display:grid;
+}
+
+#logo-pokemon{
+    position: relative;
+    width: 200px;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+#ingresa-tu-pokemon {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+#input-pokemon {
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid white;
+}
+
+#consola {
+    position: absolute;
+    width: 500px;
+    height: 800px;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+  
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 250px;   
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    margin: 200px auto;
+    background-color:  black;
+    border: 1px solid black;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-types div { 
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-img {
+    width: 180px; 
+    border-radius: 50%;
+}
